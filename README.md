@@ -10,8 +10,8 @@
   <h3>Serve Browser:</h3>
 <pre>
 <code>
-$ git clone https://github.com/paulohrodriguesaifal/ColetivoEIDI-Passei.git
-$ cd ColetivoEIDI-Passei
+$ git clone https://github.com/ColetivoEIDI/passei-mobile.git
+$ cd passei-mobile
 $ ionic serve
 </code>
 </pre>
