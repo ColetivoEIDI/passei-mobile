@@ -17,18 +17,18 @@ $ ionic serve
 </pre>
 <hr>
 <h3>Add Platform:</h3>
-####Android<br/>
+### Android
 <code>$ ionic platform add android</code><br/>
-####IOS<br/>
+### IOS
 <code>$ ionic platform add ios</code><br/>
-####Browser<br/>
+### Browser
 <code>$ ionic platform add browser</code><br/>
 <hr>
 <h3>Build Platform:</h3>
-####Android, IOS, Browser...<br/>
+### Android, IOS, Browser...
 <code>$ ionic build --list</code>
 
-##Credits
+## Credits
 <ul>
   <li><a href="https://github.com/el7hon">Elthon Oliveira</a></li>
   <li><a href="https://github.com/Juliano-rb">Juliano Rocha</a></li>
@@ -36,5 +36,5 @@ $ ionic serve
   <li><a href="https://github.com/paulohrodrigues">Paulo Henrique Abreu</a></li>
 </ul>
 
-##License
+## License
 <strong>The "Passei?" is licensed under the GNU general public license. See <a href="https://github.com/ColetivoEIDI/passei-mobile/blob/master/LICENSE">License</a> File for more information.</strong>
