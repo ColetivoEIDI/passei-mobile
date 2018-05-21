@@ -1,0 +1,19 @@
+/*
+ * PASSEI? (play.google.com/store/apps/details?id=com.eidi.passei)
+ *
+ * @link https://github.com/paulohrodriguesaifal/ColetivoEIDI-Passei
+ * @copyright Copyright (c) 2016 Coletivo EIDI
+ * @license https://github.com/paulohrodriguesaifal/ColetivoEIDI-Passei/blob/master/LICENSE (GNU GENERAL PUBLIC LICENSE)
+ */
+
+{
+  "name": "My Ionic App",
+  "short_name": "My Ionic App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
