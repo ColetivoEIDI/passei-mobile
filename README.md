@@ -17,15 +17,15 @@ $ ionic serve
 </pre>
 <hr>
 <h3>Add Platform:</h3>
-### Android
+### Android<br>
 <code>$ ionic platform add android</code><br/>
-### IOS
+### IOS<br>
 <code>$ ionic platform add ios</code><br/>
-### Browser
+### Browser<br>
 <code>$ ionic platform add browser</code><br/>
 <hr>
 <h3>Build Platform:</h3>
-### Android, IOS, Browser...
+### Android, IOS, Browser...<br>
 <code>$ ionic build --list</code>
 
 ## Credits
