@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Lista de Universidades</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list no-lines>
+    <button ion-item *ngFor="let item of getListUniversity()" (click)="openInput(item)">
+      {{ item.name }}
+    </button>
+  </ion-list>
+</ion-content>

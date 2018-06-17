@@ -1,0 +1,34 @@
+{
+    "universities":{
+        "1":{
+            "name":"UFAL",
+            "rules":{
+                "inputs":{
+                    "in1": {"name":"in1"},
+                    "in2": {"name":"in2"},
+                    "r": {"name":"r"},
+                    "rf": {"name":"rf"}
+                },
+                "if":{
+                    "result":{
+                        "in1&in2&": {
+                            "calc":"(val['in1']+val['in2'])/2",
+                            "if":{"res>=7":"Aprovado!","res<7":"Reprovado! Com direito a resposição!"}
+                        },
+                        "in1&in2&r&":{
+                            "calc":"( (val['in1'] >= val['in2']) ? val['in1'] : ( r > val['in1'] : r ? val['in1'] ) ) + ( (val['in2'] > val['in1']) ? val['in2'] : ( r > val['in2'] : r ? val['in2'] ) ) / 2",
+                            "if":{"res>=7":"Aprovado!","res<5":"Reprovado! Sem direiro a final!","res<7":"Reprovado! Com direito a final"}
+                            
+                        },
+                        "in1&in2&rf&":{
+                            "calc":"1"
+                        },
+                        "in1&in2&r&rf&":{
+                            "calc":"1"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
