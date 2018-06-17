@@ -18,15 +18,21 @@ $ ionic serve
 <hr>
 <h3>Add Platform:</h3>
 ### Android<br>
-<code>$ ionic platform add android</code><br/>
+<code>$ ionic cordova platform add android</code><br/>
 ### IOS<br>
-<code>$ ionic platform add ios</code><br/>
+<code>$ ionic cordova platform add ios</code><br/>
 ### Browser<br>
-<code>$ ionic platform add browser</code><br/>
+<code>$ ionic cordova platform add browser</code><br/>
 <hr>
 <h3>Build Platform:</h3>
 ### Android, IOS, Browser...<br>
-<code>$ ionic build --list</code>
+<code>$ ionic cordova build --list</code>
+
+## Generate Documentation
+<code> $ npm run compodoc </code>
+
+## Documentation
+to better understand the project structure read the <a href="https://coletivoeidi.github.io/passei-mobile">documentation</a>
 
 ## Credits
 <ul>
