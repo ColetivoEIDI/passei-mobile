@@ -8,13 +8,13 @@
 
   <h2>Installation:</h2>
   <h3>Serve Browser:</h3>
-<pre>
-<code>
+
+```shell
 $ git clone https://github.com/ColetivoEIDI/passei-mobile.git
 $ cd passei-mobile
 $ ionic serve
-</code>
-</pre>
+```
+
 <hr>
 <h3>Add Platform:</h3>
 ### Android<br>
