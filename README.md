@@ -37,9 +37,9 @@ to better understand the project structure read the <a href="https://coletivoeid
 ## Credits
 <ul>
   <li><a href="https://github.com/el7hon">Elthon Oliveira</a></li>
-  <li><a href="https://github.com/Juliano-rb">Juliano Rocha</a></li>
-  <li><a href="https://github.com/MonalyVital">Monaly Vital</a></li>
   <li><a href="https://github.com/paulohrodrigues">Paulo Henrique Abreu</a></li>
+  <li><a href="https://github.com/alinyaraujos">Janielly Aliny Araújo Silva</a> </li>
+  <li><a href="https://github.com/matheusrmeloo">Matheus Rodrigues A. Melo</a> </li>
 </ul>
 
 ## Contributing
